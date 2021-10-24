@@ -1,3 +1,21 @@
 .header__lang-link {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity linear .2s;
+}
 
+.header__lang-link:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.header__lang-link:not(:last-child) {
+  margin-right: 1.125rem;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 1.125rem;
+  }
 }
