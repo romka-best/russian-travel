@@ -1,3 +1,26 @@
 .intro {
+  margin: 5.75rem 0 0 9.25rem;
+  width: 43.125rem;
+}
 
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 93.75%;
+    margin-top: 5.5rem;
+    margin-left: 3.125%;
+    margin-right: 3.125%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    width: 90%;
+    margin: 4rem 1rem 0;
+  }
 }

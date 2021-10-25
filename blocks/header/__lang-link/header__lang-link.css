@@ -15,7 +15,7 @@
   margin-right: 1.125rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 1.125rem;
   }
