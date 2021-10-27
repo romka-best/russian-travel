@@ -8,7 +8,7 @@
 
 .header__lang-link:hover {
   cursor: pointer;
-  opacity: 50%;
+  opacity: 80%;
 }
 
 .header__lang-link:not(:last-child) {

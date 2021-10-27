@@ -1,3 +1,17 @@
 .website {
+  grid-column: 2/3;
+  grid-row: 1/2;
 
+  align-self: end;
+}
+
+@media screen and (max-width: 622px) {
+  .website {
+    grid-column: 1/1;
+    grid-row: 2/2;
+
+    margin: 0 5% 0;
+
+    align-self: start;
+  }
 }

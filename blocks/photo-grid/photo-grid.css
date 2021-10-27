@@ -2,8 +2,8 @@
   margin: 5.75rem 3rem 0;
 
   display: grid;
-  grid-template-columns: repeat(4, minmax(17.75rem, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(13.3125rem, 1fr));
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
   gap: 1rem;
 }
 
