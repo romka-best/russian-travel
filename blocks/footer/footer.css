@@ -1,3 +1,21 @@
 .footer {
+  margin: 5.75rem 3rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
 
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 93.75%;
+    margin: 5.5rem 3.125% 1.5rem;
+  }
+}
+
+@media screen and (max-width: 622px) {
+  .footer {
+    width: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 4rem 0 1.5rem 1rem;
+  }
 }

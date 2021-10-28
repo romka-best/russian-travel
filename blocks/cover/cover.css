@@ -7,11 +7,6 @@
   position: relative;
 }
 
-.cover:hover .cover__overlay {
-  cursor: pointer;
-  opacity: 80%;
-}
-
 .cover:hover .cover__text {
   cursor: pointer;
 }
