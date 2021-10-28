@@ -26,3 +26,6 @@
 * Git
 * Figma
 * Относительные величины: rem-ы, em-ы, vh, vw, fr, %
+
+**Проект**
+* [Ссылка](https://romka-best.github.io/russian-travel/)
