@@ -1,0 +1,35 @@
+.place {
+  display: grid;
+  column-gap: 2.5rem;
+  row-gap: 3rem;
+}
+
+.place:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    column-gap: 1.75rem;
+  }
+
+  .place:not(:last-child) {
+    margin-bottom: 4.5625rem;
+  }
+}
+
+@media screen and (max-width: 622px) {
+  .place {
+    row-gap: 2rem;
+  }
+
+  .place:not(:last-child) {
+    margin-bottom: 3.125rem;
+  }
+}
