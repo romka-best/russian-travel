@@ -4,6 +4,7 @@
   background-color: #2a2c2f;
   opacity: 30%;
   z-index: 2;
+  position: absolute;
 
   transition: opacity linear .2s;
 }
