@@ -3,12 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.cover:hover .cover__text {
-  cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {

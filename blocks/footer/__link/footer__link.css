@@ -22,4 +22,8 @@
     margin-right: 0;
     margin-bottom: 2rem;
   }
+
+  .footer__link {
+    font-size: 1.5rem;
+  }
 }
