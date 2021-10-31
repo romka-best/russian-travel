@@ -3,7 +3,7 @@
   grid-row: 2/3;
 }
 
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 720px) {
   .place__paragraphs {
     margin: 0 5% 0;
     grid-column: 1/1;

@@ -1,0 +1,10 @@
+.footer__link-item:not(:last-child) {
+  margin-right: 1.125rem;
+}
+
+@media screen and (max-width: 622px) {
+  .footer__link-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}

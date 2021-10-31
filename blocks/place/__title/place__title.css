@@ -12,20 +12,20 @@
   width: 28.75rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1090px) {
   .place__title {
     width: 27.5rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 910px) {
   .place__title {
     width: 60%;
     font-size: 2.625rem;
   }
 }
 
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 720px) {
   .place__title {
     width: auto;
     font-size: 2rem;

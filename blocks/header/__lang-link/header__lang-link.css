@@ -4,15 +4,13 @@
   color: #fff;
   text-decoration: none;
   transition: opacity linear .2s;
+
+  display: block;
 }
 
 .header__lang-link:hover {
   cursor: pointer;
   opacity: 80%;
-}
-
-.header__lang-link:not(:last-child) {
-  margin-right: 1.125rem;
 }
 
 @media screen and (max-width: 425px) {

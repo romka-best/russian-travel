@@ -6,10 +6,8 @@
 
   text-decoration: none;
   transition: opacity linear .2s;
-}
 
-.footer__link:not(:last-child) {
-  margin-right: 1.125rem;
+  display: block;
 }
 
 .footer__link:hover {
@@ -18,12 +16,8 @@
 }
 
 @media screen and (max-width: 622px) {
-  .footer__link:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 2rem;
-  }
-
   .footer__link {
     font-size: 1.5rem;
+    line-height: 1;
   }
 }

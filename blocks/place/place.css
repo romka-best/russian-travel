@@ -8,13 +8,13 @@
   margin-bottom: 5rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1090px) {
   .place {
     column-gap: 2rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 910px) {
   .place {
     column-gap: 1.75rem;
   }
@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 720px) {
   .place {
     row-gap: 2rem;
   }

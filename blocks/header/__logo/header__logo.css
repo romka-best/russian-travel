@@ -2,7 +2,9 @@
   width: 11rem;
   height: 3.25rem;
 
+  background-image: url('../../../images/header-logo.svg');
   background-size: cover;
+  background-position: center;
 
   transition: opacity linear .2s;
 }

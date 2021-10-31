@@ -5,15 +5,11 @@
   color: #fff;
 
   text-align: center;
-  width: 35rem;
+  width: 100%;
+  max-width: 35rem;
 
   margin: 0 0 2rem;
-}
-
-@media screen and (max-width: 1280px) {
-  .cover__title {
-    margin: 0 0 2rem;
-  }
+  z-index: 2;
 }
 
 @media screen and (max-width: 622px) {
